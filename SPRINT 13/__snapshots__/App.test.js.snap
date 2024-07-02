@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`when rpogress is 1 it is used correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#F0EBED",
+      "flex": 1,
+      "justifyContent": "center",
+    }
+  }
+>
+  <RNSVGSvgView
+    bbHeight="100%"
+    bbWidth="100%"
+    focusable={false}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {
+          "position": "absolute",
+        },
+        {
+          "flex": 0,
+          "height": "100%",
+          "width": "100%",
+        },
+      ]
+    }
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGCircle
+        cx="375"
+        cy="667"
+        fill={
+          {
+            "payload": 4278190080,
+            "type": 0,
+          }
+        }
+        propList={
+          [
+            "stroke",
+            "strokeWidth",
+          ]
+        }
+        r="159.15494309189535"
+        stroke={
+          {
+            "payload": 4294227927,
+            "type": 0,
+          }
+        }
+        strokeWidth="30"
+      />
+      <Text>
+        {"strokeDasharray":[0,1000]}
+      </Text>
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <Text>
+    0
+  </Text>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      [
+        {
+          "alignItems": "center",
+          "borderRadius": 15,
+          "bottom": 80,
+          "elevation": 5,
+          "height": 60,
+          "justifyContent": "center",
+          "position": "absolute",
+          "width": 525,
+        },
+        {
+          "backgroundColor": "#c00069",
+        },
+      ]
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "white",
+          "fontSize": 25,
+          "letterSpacing": 2,
+        }
+      }
+    >
+      Run
+    </Text>
+  </View>
+</View>
+`;
